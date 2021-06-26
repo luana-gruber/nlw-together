@@ -1,7 +1,7 @@
 .content{
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 11.4rem 1fr;
+    grid-template-rows: 9rem 1fr;
 
     grid-template-areas: 
     'header header'
@@ -15,7 +15,7 @@ header{
 #bg{
     grid-area: left;
     background: url(/assets/home-bg-img.svg) no-repeat top/contain;
-    background-position-x: -10rem;
+    background-position-x: -8.5rem;
 }
 
 main{
@@ -23,7 +23,7 @@ main{
 
     display: flex;
     align-items: center;
-    margin-top: -12rem;
+    margin-top: -1.2rem;
 }
 
 main .container{
